@@ -48,6 +48,24 @@
                 border: none;
                 cursor: pointer;
             }
+
+            label {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                color: #8da4f1;
+                font-size: 12px;
+                cursor: pointer;
+
+                img {
+                    width: 30px;
+                }
+            }
+        }
+
+        p {
+            font-size: 15px;
+            margin-top: 10px;
         }
 
         .logo {
