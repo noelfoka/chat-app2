@@ -1,21 +1,20 @@
 import React from "react";
 
-const login = () => {
+const Login = () => {
   return (
     <div className="formContainer">
       <div className="formWrapper">
-        <span className="logo">Numie Registration</span>
-        <span className="title">Register</span>
+        <span className="logo">Numie Chat</span>
+        <span className="title">Login</span>
         <form>
-          <input type="text" placeholder="Display name" />
           <input type="email" placeholder="Email" />
           <input type="password" placeholder="Password" />
-          <button>Sign Up</button>
+          <button>Sign In</button>
         </form>
-        <p>You do have an account? Login</p>
+        <p>You don't have an account? Register</p>
       </div>
     </div>
   );
 };
 
-export default login;
+export default Login;
